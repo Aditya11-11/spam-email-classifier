@@ -75,7 +75,7 @@ A bag-of-words model has no idea about context, so it gets fooled by vocabulary.
 The dataset downloads automatically the first time you run anything (it's small), and the trained model is already included, so `predict` works straight away.
 
 ```bash
-git clone https://github.com/Aditya11-11/spam-email-classifier.git
+git clone https://github.com/Shreyabhawsar/spam-email-classifier.git
 cd spam-email-classifier
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -105,10 +105,10 @@ About 400 messages appear more than once (the same spam blast sent to many peopl
 
 This is one of five ML projects I built while learning machine learning, each in its own repo:
 
-- [🌸 Iris Flower Classification](https://github.com/Aditya11-11/iris-flower-classification)
-- [🏠 House Price Prediction](https://github.com/Aditya11-11/house-price-prediction)
-- [📉 Customer Churn Prediction](https://github.com/Aditya11-11/customer-churn-prediction)
-- [📩 Spam Classifier](https://github.com/Aditya11-11/spam-email-classifier) ← you are here
-- [✍️ Handwritten Digit Recognition (MNIST)](https://github.com/Aditya11-11/mnist-digit-recognition)
+- [🌸 Iris Flower Classification](https://github.com/Shreyabhawsar/iris-flower-classification)
+- [🏠 House Price Prediction](https://github.com/Shreyabhawsar/house-price-prediction)
+- [📉 Customer Churn Prediction](https://github.com/Shreyabhawsar/customer-churn-prediction)
+- [📩 Spam Classifier](https://github.com/Shreyabhawsar/spam-email-classifier) ← you are here
+- [✍️ Handwritten Digit Recognition (MNIST)](https://github.com/Shreyabhawsar/mnist-digit-recognition)
 
 MIT licensed. See [LICENSE](LICENSE).
