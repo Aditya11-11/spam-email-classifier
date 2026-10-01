@@ -1,0 +1,94 @@
+{
+  "selected_model": "Bag-of-Words + NB",
+  "n_messages": 5171,
+  "n_train": 4136,
+  "n_test": 1035,
+  "spam_share": 0.1263,
+  "models": {
+    "Bag-of-Words + NB": {
+      "best_params": {
+        "alpha": 1.0,
+        "min_df": 1,
+        "ngram_range": [
+          1,
+          1
+        ]
+      },
+      "cv_f1": 0.9484,
+      "test_accuracy": 0.9894,
+      "test_spam_precision": 0.9545,
+      "test_spam_recall": 0.9618,
+      "test_spam_f1": 0.9582,
+      "test_roc_auc": 0.9884,
+      "vocab_size": 5419
+    },
+    "TF-IDF + NB": {
+      "best_params": {
+        "alpha": 0.3,
+        "min_df": 2,
+        "ngram_range": [
+          1,
+          1
+        ]
+      },
+      "cv_f1": 0.9401,
+      "test_accuracy": 0.9884,
+      "test_spam_precision": 0.976,
+      "test_spam_recall": 0.9313,
+      "test_spam_f1": 0.9531,
+      "test_roc_auc": 0.9948,
+      "vocab_size": 2475
+    }
+  },
+  "top_spam_tokens": [
+    "phonetoken",
+    "claim",
+    "prize",
+    "tone",
+    "nokia",
+    "guarante",
+    "ppm",
+    "cs",
+    "rington",
+    "attempt"
+  ],
+  "n_misclassified": 11,
+  "example_errors": [
+    {
+      "text": "Are you free now?can i call now?",
+      "actual": "ham",
+      "predicted": "spam",
+      "p_spam": 0.549
+    },
+    {
+      "text": "Nokia phone is lovly..",
+      "actual": "ham",
+      "predicted": "spam",
+      "p_spam": 0.961
+    },
+    {
+      "text": "Xmas & New Years Eve tickets are now on sale from the club, during the day from 10am till 8pm, and on Thurs, Fri & Sat night this week. They're selling fast!",
+      "actual": "spam",
+      "predicted": "ham",
+      "p_spam": 0.001
+    },
+    {
+      "text": "Babe: U want me dont u baby! Im nasty and have a thing 4 filthyguys. Fancy a rude time with a sexy bitch. How about we go slo n hard! Txt XXX SLO(4msgs)",
+      "actual": "spam",
+      "predicted": "ham",
+      "p_spam": 0.0
+    },
+    {
+      "text": "Have you laid your airtel line to rest?",
+      "actual": "ham",
+      "predicted": "spam",
+      "p_spam": 0.824
+    },
+    {
+      "text": "In The Simpsons Movie released in July 2007 name the band that died at the start of the film? A-Green Day, B-Blue Day, C-Red Day. (Send A, B or C)",
+      "actual": "spam",
+      "predicted": "ham",
+      "p_spam": 0.0
+    }
+  ]
+}

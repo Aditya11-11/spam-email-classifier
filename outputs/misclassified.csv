@@ -1,0 +1,12 @@
+text,actual,predicted,p_spam
+Are you free now?can i call now?,ham,spam,0.549
+Nokia phone is lovly..,ham,spam,0.961
+"Xmas & New Years Eve tickets are now on sale from the club, during the day from 10am till 8pm, and on Thurs, Fri & Sat night this week. They're selling fast!",spam,ham,0.001
+Babe: U want me dont u baby! Im nasty and have a thing 4 filthyguys. Fancy a rude time with a sexy bitch. How about we go slo n hard! Txt XXX SLO(4msgs),spam,ham,0.0
+Have you laid your airtel line to rest?,ham,spam,0.824
+"In The Simpsons Movie released in July 2007 name the band that died at the start of the film? A-Green Day, B-Blue Day, C-Red Day. (Send A, B or C)",spam,ham,0.0
+ASKED 3MOBILE IF 0870 CHATLINES INCLU IN FREE MINS. INDIA CUST SERVs SED YES. L8ER GOT MEGA BILL. 3 DONT GIV A SHIT. BAILIFF DUE IN DAYS. I O £250 3 WANT £800,spam,ham,0.422
+Unlimited texts. Limited minutes.,ham,spam,0.766
+"Mostly sports type..lyk footbl,crckt..",ham,spam,0.689
+How much it will cost approx . Per month.,ham,spam,0.683
+"SMS. ac sun0819 posts HELLO:""You seem cool, wanted to say hi. HI!!!"" Stop? Send STOP to 62468",spam,ham,0.125
